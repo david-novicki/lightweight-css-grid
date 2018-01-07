@@ -1,0 +1,60 @@
+@import 'vars';
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  	box-sizing: inherit;
+}
+@media (min-width: $large) {
+	.container {
+		max-width: 1140px;
+	}
+}
+@media (min-width: $medium) and (max-width: $large) {
+	.container {
+		max-width: 960px;
+	}
+}
+@media (min-width: $small) and (max-width: $medium) {
+	.container {
+		max-width: 720px;
+	}
+}
+@media (min-width: $xsmall) and (max-width: $small) {
+	.container {
+		max-width: 540px;
+	}
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.grid-row {
+	display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+}
+.grid-item {
+	flex-grow: 1;
+}
+.grid-item-2 {
+	flex-grow: 2;
+}
+.grid-item-4 {
+	flex-grow: 3;
+}
+.grid-item-8 {
+	flex-grow: 4;
+}
+.align-center {
+	align-self: center;
+}
+.justify-center {
+	justify-content: center;
+}

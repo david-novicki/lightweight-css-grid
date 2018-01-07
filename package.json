@@ -1,0 +1,18 @@
+{
+  "name": "css-grid",
+  "version": "1.0.0",
+  "description": "A simple lightweight css grid stylesheet",
+  "main": "dist/styles.css",
+  "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1",
+	"build": "sass src/styles.scss dist/styles.scss"
+  },
+  "keywords": [
+    "CSS",
+    "CSS",
+    "Grid",
+    "Responsive"
+  ],
+  "author": "David Novicki <supercycle91@gmail.com>",
+  "license": "ISC"
+}
