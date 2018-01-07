@@ -15,3 +15,9 @@ Welcome to the first child. This is a row (horizontal) and is your container for
 
 ### .grid-item-{2,4,8}
 Column heaven. Unlike bootstrap, we use 1,2, and 4 size columns with a max of 8 column spaces per row.
+
+### .align-center
+Want contents in your column centered vertically? Use this class!
+
+### .justify-center
+Want contents in your column centered horizontally? Use this class!
