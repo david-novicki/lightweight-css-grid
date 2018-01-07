@@ -10,22 +10,22 @@ html {
 }
 @media (min-width: $large) {
 	.container {
-		max-width: 1140px;
+		max-width: $large-content;
 	}
 }
 @media (min-width: $medium) and (max-width: $large) {
 	.container {
-		max-width: 960px;
+		max-width: $medium-content;
 	}
 }
 @media (min-width: $small) and (max-width: $medium) {
 	.container {
-		max-width: 720px;
+		max-width: $small-content;
 	}
 }
 @media (min-width: $xsmall) and (max-width: $small) {
 	.container {
-		max-width: 540px;
+		max-width: $xsmall-content;
 	}
 }
 .container {
